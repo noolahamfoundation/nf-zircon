@@ -32,6 +32,12 @@
             $('.btn-btt').hide();
           }
       });      
+      
+     $('.navbar-toggle').click(function() {
+        $("#superfish-main").css("display", "");      
+     });
+      
+    
     }
   };
 })(jQuery, Drupal);

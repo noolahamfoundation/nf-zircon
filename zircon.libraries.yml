@@ -17,6 +17,7 @@ global-styling:
       css/slideshow.css: {}
       css/responsive.css: {}
       css/print.css: { media: print }
+      css/overwrite.css: {}
   js:
     js/scripts.js: {}
     includes/respond/respond.min.js: {}

@@ -74,6 +74,27 @@
     </section>
   {% endif %}
 
+  {% if page.featured1 and page.featured2 and page.featured3 and page.featured4 %}
+    <section id="featured_block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            {{ page.featured1 }}
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            {{ page.featured2 }}
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            {{ page.featured3 }}
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            {{ page.featured4 }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+  
   {% if messages %}
     <section id="messages" class="messages">
       <div class="container">
@@ -94,6 +115,27 @@
     <a id="main-content"></a>
     <div class="container">
       <div class="row">
+        
+        {% if page.homepageb1 and page.homepageb2 and page.homepageb3 and page.homepageb4 %}
+        <section id="homepageb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        {{ page.homepageb1 }}
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        {{ page.homepageb2 }}
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        {{ page.homepageb3 }}
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        {{ page.homepageb4 }}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% endif %}
         
         {% if page.sidebar_first %}
           <aside class="sidebar-first sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12" role="complementary">

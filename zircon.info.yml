@@ -18,8 +18,16 @@ regions:
   page_bottom: 'Page bottom'
   messages: Messages
   featured: Featured
+  featured1: Featured1
+  featured2: Featured2
+  featured3: Featured3
+  featured4: Featured4
   breadcrumb: Breadcrumb
   content: Content
+  homepageb1: homepageb1
+  homepageb2: homepageb2
+  homepageb3: homepageb3
+  homepageb4: homepageb4
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
   panel_first_1: 'Panel first col 1'
