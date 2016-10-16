@@ -67,7 +67,11 @@ header, nav, section, article, figure, aside, footer {
 
 /* line 20, ../sass/html.scss */
 a {
-  color: #555555;
+  color: #0000FF;
+}
+
+a:visited {
+  color: #800080;
 }
 
 /* line 23, ../sass/html.scss */
